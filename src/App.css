@@ -1,0 +1,33 @@
+.container {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container fieldset {
+  width: 30%;
+  padding:10px 30px;
+}
+
+.container div {
+  margin: 10px 0;
+}
+
+
+.container legend {
+  text-align: center;
+  padding: 5px;
+}
+
+.container label {
+  display: inline-block;
+  width: 33%;
+}
+
+.container fieldset div:nth-child(4){
+  display: flex;
+  gap: 5px;
+}
